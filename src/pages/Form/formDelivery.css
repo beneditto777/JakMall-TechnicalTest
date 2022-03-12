@@ -1,0 +1,77 @@
+/* .formDetail > form{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+input[type=text], input[type=email] {
+    width: 400px;
+    padding: 12px 20px;
+    margin: 8px 8px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+textarea[type=text] {
+    width: 400px;
+    height: 100px;
+    padding: 12px 20px;
+    margin: 8px 8px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+} */
+
+.formInput{
+    display: inline-flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+input{
+    padding: 15px;
+    margin: 10px 0px;
+    border: 1px solid gray;
+    width: 380px;
+}
+
+textarea{
+    padding: 15px;
+    margin: 20px 0px;
+    border: 1px solid gray;
+    width: 380px;
+    height: 100px;
+}
+
+span.error{
+    font-size: 12px;
+    padding: 3px;
+    color: orange;
+    display: none;
+}
+
+input:invalid[focused="true"]{
+    border: 3px solid orange;
+}
+
+input:valid[focused="true"]{
+    content: '\2713';
+    border: 3px solid green;
+}
+
+input:invalid[focused="true"] ~ span.error{
+    display: inline;
+}
+
+textarea:valid[focused="true"]{
+    content: '\2713';
+    border: 3px solid green;
+}
+
+textarea:invalid[focused="true"]{
+    border: 3px solid orange;
+}
+
+textarea:invalid[focused="true"] ~ span.error{
+    display: inline;
+}
