@@ -1,10 +1,10 @@
 ##Flow Website :
 
-#1 Aplikasi dimulai dengan halaaman homepage.
-#2 Dilanjutkan masuk ke halaman cart dimana dapat merubah kuantitas produknya.
-#3 Lanjut ke halaman delivery dimana harus menginput data pengiriman seperti nama, nomor telpon, dan alamat dengan validasi yang sudah ditentukan.
-#4 Berlanjut ke halaman payment dimana mengharuskan untuk memilih shipment dan payment.
-#5 Pada halaman terakhir maka akan tergenerate order id sesuai dengan ketentuan yang ada dan dapat kembali lagi ke halaman homepage.
+#1 Aplikasi dimulai dengan halaman homepage.\
+#2 Dilanjutkan masuk ke halaman cart dimana dapat merubah kuantitas produknya.\
+#3 Lanjut ke halaman delivery dimana harus menginput data pengiriman seperti nama, nomor telpon, dan alamat dengan validasi yang sudah ditentukan.\
+#4 Berlanjut ke halaman payment dimana mengharuskan untuk memilih shipment dan payment.\
+#5 Pada halaman terakhir maka akan tergenerate order id sesuai dengan ketentuan yang ada dan dapat kembali lagi ke halaman homepage.\
 
 ## Available Scripts
 
