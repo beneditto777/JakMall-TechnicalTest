@@ -214,7 +214,7 @@ const Payment = () => {
             >
               <p>
                 <span>{shipment} shipment</span>
-                <span>{shipmentPrice}</span>
+                <span>{formatCurrency.format(shipmentPrice)}</span>
               </p>
             </div>
           </div>
